@@ -12,7 +12,7 @@ public :
 	Cafe();
 	~Cafe() = default;
 
-	void AddConSumer(class Barista * a_nBarista);
+	void AddBarista(class Barista * a_nBarista);
 	std::tuple<bool, PriceVal, BuyCount>Buy(int a_nCount);
 
 	int Price(int a_nCount);
