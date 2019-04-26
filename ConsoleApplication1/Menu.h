@@ -7,6 +7,7 @@ public :
 private : 
 	int Money;
 
+
 };
 
 class MenuItem {
